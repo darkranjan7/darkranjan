@@ -3,64 +3,113 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rajeev Ranjan's Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Dark Downloader Pro - Video Downloader</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>Rajeev Ranjan</h1>
         <nav>
+            <div class="logo">Dark Downloader Pro</div>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#docs">Documentation</a></li>
             </ul>
         </nav>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a B.Tech CSE student at Brainware University, passionate about technology and software development. I specialize in web development and am constantly learning new technologies.</p>
-        <div class="skills">
-            <h3>Skills</h3>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-            </ul>
-        </div>
-    </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Portfolio Website</h3>
-            <p>A responsive personal portfolio website built using HTML, CSS, and JavaScript.</p>
-            <a href="#" class="project-link">View Project</a>
-        </div>
-        <div class="project">
-            <h3>Project Management Tool</h3>
-            <p>A web application for managing projects and tasks.</p>
-            <a href="#" class="project-link">View Project</a>
-        </div>
-    </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-        <div class="social-links">
-            <a href="#"><i class="fab fa-github"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-        </div>
-    </section>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Dark Downloader Pro</h1>
+                <p>Download videos and audio from YouTube and more than 200 Sites with style</p>
+                <a href="dark_downloader_pro.exe" class="download-btn">
+                    <i class="fab fa-windows"></i> Download for Windows
+                </a>
+            </div>
+        </section>
+
+        <section id="features" class="features">
+            <h2>Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <i class="fas fa-video"></i>
+                    <h3>Multiple Formats</h3>
+                    <p>Download videos in MP4 format from 240p to 4K quality</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Audio Extraction</h3>
+                    <p>Extract audio in MP3 and M4A formats with high quality</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Dark/Light Theme</h3>
+                    <p>Switch between dark and light themes for comfort</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Downloads</h3>
+                    <p>Optimized for speed with lightweight processing</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="download" class="download">
+            <h2>Download Now</h2>
+            <div class="download-options">
+                <div class="download-card active">
+                    <i class="fab fa-windows"></i>
+                    <h3>Windows</h3>
+                    <p>Version 1.0.0</p>
+                    <a href="dark_downloader_pro.exe" class="btn">Download</a>
+                </div>
+                <div class="download-card disabled">
+                    <i class="fab fa-apple"></i>
+                    <h3>MacOS</h3>
+                    <p>Coming Soon</p>
+                    <button class="btn" disabled>Coming Soon</button>
+                </div>
+                <div class="download-card disabled">
+                    <i class="fab fa-linux"></i>
+                    <h3>Linux</h3>
+                    <p>Coming Soon</p>
+                    <button class="btn" disabled>Coming Soon</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="docs" class="docs">
+            <h2>Documentation</h2>
+            <div class="docs-content">
+                <h3>How to Use</h3>
+                <ol>
+                    <li>Download and run DarkDownloaderPro.exe</li>
+                    <li>Paste a YouTube video URL</li>
+                    <li>Click Search to see available formats</li>
+                    <li>Double-click your preferred format to start download</li>
+                    <li>Wait for the download to complete</li>
+                </ol>
+
+                <h3>Supported Formats</h3>
+                <ul>
+                    <li>Video: MP4 (240p to 4K)</li>
+                    <li>Audio: MP3, M4A</li>
+                </ul>
+
+                <h3>System Requirements</h3>
+                <ul>
+                    <li>Windows 10/11</li>
+                    <li>4GB RAM minimum</li>
+                    <li>No additional software required</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>&copy; 2023 Rajeev Ranjan. All rights reserved.</p>
+        <p>&copy; 2025 Dark Downloader Pro. Created by Dark Ranjan</p>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
